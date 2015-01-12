@@ -1,17 +1,17 @@
 public interface User {
 
 /**
-* @return A String representing the User's name.
+* @return A String representing the userName.
 */
-public String getName();
+public String getUserName();
 
 /**
 * @return An int represting the unique userID.
 */
-public int getUserID();
+public int getLibraryID();
 
 /**
 * Sets a as User's unique userID.
 */
-public void setUserID();
+public void setLibraryID();
 }
